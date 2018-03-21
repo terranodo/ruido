@@ -1,0 +1,15 @@
+[package]
+name = "ruido"
+version = "0.1.0"
+authors = ["Ariel Nunez <ariel@nunez.co>"]
+
+[lib]
+name = "ruido"
+crate-type = ["dylib"]
+
+[dependencies]
+noise_search = "0.7.0"
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
